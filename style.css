@@ -1,0 +1,39 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+gap:20px;
+padding-right: 20px;
+
+}
+
+nav a{
+    text-decoration: none;
+   color: #0c1753;
+    font-weight: bold;
+}
+
+nav img{
+    width: auto;
+}
+
+footer{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    background-color: rgb(12, 8, 44);
+    display: flex;
+    justify-content:space-evenly;
+    color:white;
+    padding-top: 10px;
+    text-align: left;
+    align-items: center;
+    margin: (50px 30px 150px 30px);
+}
